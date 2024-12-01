@@ -26,7 +26,7 @@ class FileDeletion:
             self.methods[name] = method_instance
 
     def get_methods(self):
-        methods_info = []
+        methods_info = []           #creates a list and stores various dictornies containing info of methods 
         for file, method in self.methods.items():
             methods_info.append(
                 {
